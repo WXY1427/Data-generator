@@ -3,12 +3,10 @@
 ### Training
 
 ```
-python3 run.py
+for i in {0..4}; do python3 generate_AP.py AP/3AP-10-$i.lp 10 3; done
 ```
-or run jupyter file
-```
-RUN MY MODEL.ipynb
-```
+to generate 4 instances
+
 
 ### Testing
 
