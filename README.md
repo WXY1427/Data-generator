@@ -2,7 +2,7 @@
 
 ### Training
 
-Run the following to generate KP instances in KP file (that had been created). (tests/examples/zgenerator)
+Run the following to generate KP instances in KP file (that had been created). (cd tests/examples/zgenerator)
 ```
 for i in {0..4}; do python3 generate_KP.py KP/3KP-10-$i.lp 10 3; done
 ```
