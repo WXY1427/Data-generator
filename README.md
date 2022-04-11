@@ -20,3 +20,14 @@ python3 branch2learn_cl/02_train.py -p KP -m "gin1"
 ```
 to generate 4 instances
 
+
+### Testing
+
+Run the following to test an algorithm which is chosen in "cli.py". (cd src)
+```
+python3 -m moiptimiser ../tests/examples/zgenerator/KP/3KP-100-3.lp
+```
+to generate 4 instances
+
+
+
